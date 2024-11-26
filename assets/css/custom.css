@@ -7,7 +7,7 @@
 
 .header {
     color: var(--default-color);
-    /*background-color:#f8f8f8;*/
+    background-color:#f3f3f3;
     padding: 5px 0;
     transition: all 0.5s;
     z-index: 997;
@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
 }
 
-body {background-color:#f3f3f3;}
+body {background-color:#ffffff;}
 
 /*body {background-color:#f9f9f9 !important;}*/
 
@@ -193,21 +193,23 @@ body {background-color:#f3f3f3;}
 
 .bmenu a, .bmenu a:focus {
     color: #000000;
-    padding: 5px 15px;
+    padding: 3px 15px;
     font-size: 14px;
     font-family: var(--nav-font);
-    font-weight: 400;
+    font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: space-between;
     white-space: nowrap;
     transition: 0.3s;
+    border: 1.5px solid #cc0000;
     /* text-transform: uppercase; */
+    margin-right: 7px;
 }
 
 
 .bmenu li a:hover {
-    color: #000000;
+    color: #cc0000;
     padding: 5px 15px;
     font-size: 14px;
     font-family: var(--nav-font);
@@ -231,7 +233,7 @@ footer {
 
 .footer {
     color: var(--default-color);
-    background-color: var(--background-color);
+    background-color:#f3f3f3;
     font-size: 13px;
     position:relative;
     /*position: absolute;*/
@@ -341,7 +343,7 @@ label {
 
 section, .section {
     color: var(--default-color);
-    background-color:#f3f3f3;
+    background-color:#ffffff;
     padding: 25px 0;
     scroll-margin-top: 100px;
     overflow: clip;
