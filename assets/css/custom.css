@@ -445,9 +445,11 @@ section, .section {
 }
 
 .info-new-reg p {
-  color:#cc0000;
-  font-size: 12px !important;
-  line-height: 18px !important;
+    color: #cc0000;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    text-align: justify;
+    padding: 0 5px;
 }
 
 .info-new-reg p strong {
