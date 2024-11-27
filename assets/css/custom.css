@@ -13,15 +13,38 @@
     z-index: 997;
 }
 
+
+header a.icon {
+    color:#cc0000;
+    width: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+header .bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: bold !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color:#303030;
     font-family: var(--heading-font);
 }
 
+
 body {background-color:#ffffff;}
 
-/*body {background-color:#f9f9f9 !important;}*/
 
+/*body {background-color:#f9f9f9 !important;}*/
 
 /*.contact .login-div button[type=submit] {
     color: var(--contrast-color);
@@ -33,6 +56,7 @@ body {background-color:#ffffff;}
     text-transform: uppercase;
     font-weight: bold;
 }*/
+
 
 .header .btn-getstarted, .header .btn-getstarted:focus {
     color:#002060;
@@ -161,7 +185,6 @@ body {background-color:#ffffff;}
     border-radius:10px;
 }
 
-
 .login-div-header {
     background-color: #cc0000;
     border-top-left-radius: 10px;
@@ -278,11 +301,13 @@ footer {
   opacity: 0.6;
   outline: 0;
 }
+
 .form-control:-moz-placeholder {
  color: #dddddd;
   opacity: 0.6;
 
 }
+
 .form-control::-moz-placeholder {
  color: #dddddd;
   opacity: 0.6;
@@ -484,8 +509,8 @@ section, .section {
 }
 
 .servicesbc .service-itembc:hover {
-    border: 1px solid #cc0000;
-    background-color: #cc0000;
+    border: 1px solid #0796e8;
+    background-color: #0796e8;
     color:#ffffff !important;
 }
 
@@ -567,7 +592,6 @@ main {
 
 
 /*----------------- media -------------------------*/
-
 
 
 
