@@ -266,21 +266,23 @@ body {background-color:#ffffff;}
 }
 
 
-#footer {
+/*#footer {
   position: absolute;
   width: 100%;
   display:block;
   bottom:0px;
   height:40px;
-  /*margin-top:-40px;*/
-} 
+  margin-top:-40px;
+}*/ 
 
 
 .footer {
     color: var(--default-color);
     background-color:#f3f3f3;
     font-size: 13px;
-    /*position:relative;*/
+    position:relative;
+    height:40px;
+    bottom:0px;
 }
 
 
@@ -610,9 +612,9 @@ section, .section {
 }
 
 
-.main {
+/*.main {
     min-height: 31rem;
-}
+}*/
 
 .red-border-menu {
     border: 1.5px solid #cc0000;
@@ -638,6 +640,10 @@ section, .section {
     width: 130px;
 }
 
+/*.main {
+    min-height: 35.5rem;
+}*/
+
 /*.loginpage .services .service-item {
 
     background-color: var(--surface-color);
@@ -658,9 +664,6 @@ section, .section {
     margin-bottom: 15px;
 }
 
-main {
-    min-height: 35rem;
-}
 
 .bmenu ul {
     margin: 15px;
