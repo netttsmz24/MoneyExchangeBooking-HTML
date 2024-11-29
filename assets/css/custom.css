@@ -1,4 +1,10 @@
 /*------------ Custom Style --------------*/
+html, body {
+  height: 100%;
+}
+.container {
+    min-height:100%;
+}
 
 .header .logo img {
     max-height: 50px;
@@ -14,7 +20,7 @@
 }
 
 
-header a.icon {
+#header a.icon {
     color:#cc0000;
     width: 30px;
     text-decoration: none;
@@ -169,6 +175,12 @@ body {background-color:#ffffff;}
     font-weight: 600;
 }
 
+.form-select-lg:focus {
+    outline: 0 !important;
+    box-shadow: none;
+}
+
+
 .loginPage .form-select-lg option{
      
     font-size: 1.0rem;
@@ -246,11 +258,21 @@ body {background-color:#ffffff;}
     border:2px solid red;
 }
 
-footer {
-  /*position: absolute;*/
+.message-try p {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 30px;
+    font-weight: 500;
+}
+
+
+#footer {
+  position: absolute;
   width: 100%;
-  display: block;
+  display:block;
   bottom:0px;
+  height:40px;
+  /*margin-top:-40px;*/
 } 
 
 
@@ -258,8 +280,7 @@ footer {
     color: var(--default-color);
     background-color:#f3f3f3;
     font-size: 13px;
-    position:relative;
-    /*position: absolute;*/
+    /*position:relative;*/
 }
 
 
@@ -322,7 +343,7 @@ footer {
 .form-control:focus {
     color: var(--bs-body-color);
     background-color: var(--bs-body-bg);
-    border-color: #198754;
+    border-color: #000000;
     outline: 0;
      box-shadow:none; 
 }
@@ -338,9 +359,10 @@ footer {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background-color: #f7f7f7;
+    background-color: #ffffff;
+    /*background-color: #f7f7f7;*/
     background-clip: padding-box;
-    border: var(--bs-border-width) solid #dbdcdd;
+    border:1px solid #c4c4c4;
     border-radius: var(--bs-border-radius);
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
@@ -588,10 +610,14 @@ section, .section {
 }
 
 
-main {
+.main {
     min-height: 31rem;
 }
 
+.red-border-menu {
+    border: 1.5px solid #cc0000;
+    margin-bottom: 10px;
+}
 
 /*----------------- media -------------------------*/
 
@@ -636,6 +662,21 @@ main {
     min-height: 35rem;
 }
 
+.bmenu ul {
+    margin: 15px;
+    padding: 0;
+    display: block;
+    list-style: none;
+    align-items: center;
 }
 
 
+}
+
+@media (max-width:1200px) {
+
+#header a.icon {
+    order: 1;
+}
+
+}
