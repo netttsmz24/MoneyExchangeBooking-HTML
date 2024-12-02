@@ -49,20 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {background-color:#ffffff;}
 
-
-/*body {background-color:#f9f9f9 !important;}*/
-
-/*.contact .login-div button[type=submit] {
-    color: var(--contrast-color);
-    background: var(--accent-color);
-    border: 0;
-    padding: 10px 20px;
-    transition: 0.4s;
-    border-radius: 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-}*/
-
+ 
 
 .header .btn-getstarted, .header .btn-getstarted:focus {
     color:#002060;
@@ -186,6 +173,39 @@ body {background-color:#ffffff;}
     font-size: 1.0rem;
     color: #0f2965;
     font-weight:500;
+}
+
+.servicesbox {
+    text-align: center;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    transition: border ease-in-out 0.3s;
+    height:auto;
+    min-height: 80px;
+    border-radius:1px;
+    margin-bottom:5px;
+}
+
+.servicesbox h5 {
+    text-align: center;
+    font-size: 25px;
+    color:#ffffff;
+}
+
+.servicesbox span {
+    text-align: center;
+    font-size:16px;
+    color:#ffffff;
+    font-weight:500;
+}
+
+
+.color-01 {
+    background-color:#0f2965;
+}
+
+.color-02 {
+    background-color:#cc0000;
 }
 
 
@@ -619,6 +639,15 @@ section, .section {
 .red-border-menu {
     border: 1.5px solid #cc0000;
     margin-bottom: 10px;
+}
+
+.scroll-top {
+    
+    background-color:#cc0000;
+}
+
+.scroll-top:hover {
+   background-color:#0f2965;
 }
 
 /*----------------- media -------------------------*/
