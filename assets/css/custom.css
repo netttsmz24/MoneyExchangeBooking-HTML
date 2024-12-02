@@ -169,7 +169,6 @@ body {background-color:#ffffff;}
 
 
 .loginPage .form-select-lg option{
-     
     font-size: 1.0rem;
     color: #0f2965;
     font-weight:500;
@@ -199,15 +198,60 @@ body {background-color:#ffffff;}
     font-weight:500;
 }
 
+.servicesbox-pop {
+    text-align: center;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    transition: border ease-in-out 0.3s;
+    height:auto;
+    min-height: 40px;
+    border-radius:1px;
+    margin-bottom:5px;
+}
+
+.servicesbox-pop span {
+    text-align: center;
+    font-size:16px;
+    color:#ffffff;
+    font-weight:500;
+}
+
+.servicesbox-pop h5 {
+    text-align: center;
+    font-size:18px;
+    color:#ffffff;
+}
+
+.servicesbox-pop h4 {
+    text-align: center;
+    color:#ffffff;
+}
+
 
 .color-01 {
     background-color:#0f2965;
+}
+
+.color-01a {
+    background-color: #314166;
 }
 
 .color-02 {
     background-color:#cc0000;
 }
 
+.color-02a {
+    background-color: #993d3d;
+}
+
+.color-03 {
+    background-color:#00cccc;
+}
+
+
+.color-04 {
+    background-color:#198754;
+}
 
 .contact .login-div {
     background-color: var(--surface-color);
