@@ -227,6 +227,9 @@ body {background-color:#ffffff;}
     color:#ffffff;
 }
 
+.servicesbox-pop:focus {
+    border:5px solid #000000;
+}
 
 .color-01 {
     background-color:#0f2965;
@@ -248,10 +251,48 @@ body {background-color:#ffffff;}
     background-color:#00cccc;
 }
 
-
 .color-04 {
     background-color:#198754;
 }
+
+.select-group-style {
+    width: 100%;
+
+}
+
+.select-list-style {
+    margin-bottom: 10px;
+    background-color: red;
+    color: #fff;
+    text-align: left;
+    text-indent:5px;
+}
+
+.select-list-redio {
+    float: left;
+    margin-left:5px;
+    width: 20px;
+    height:20px;
+}
+
+
+.sl-style-100 {
+    font-size: 30px;
+    margin-top: -15px;
+}
+
+
+/*------------- money section start-----------------------------*/
+
+.money-section {
+
+
+}
+
+
+
+/*------------- money section End-----------------------------*/
+
 
 .contact .login-div {
     background-color: var(--surface-color);
