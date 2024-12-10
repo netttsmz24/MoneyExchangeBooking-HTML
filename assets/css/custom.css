@@ -255,6 +255,10 @@ body {background-color:#ffffff;}
     background-color:#198754;
 }
 
+.color-05 {
+    background-color:#d2d7df;
+}
+
 .select-group-style {
     width: 100%;
 
@@ -275,23 +279,135 @@ body {background-color:#ffffff;}
     height:20px;
 }
 
+.setp-01 label {
+    font-size: 13px;
+    color:#000000;
+    text-align: left;
+    line-height: 14px;
+    margin:5px 0;
+    min-height: 30px;
+}
+
+.setp-01 input {
+    font-size: 13px;
+    color: #000000;
+    text-align: left;
+    margin: 5px 10px;
+    width: 94%;
+    border-radius: 3px;
+    border: 1px solid #bbbbbb;
+    height: 30px;
+}
+
+.setp-01 select {
+    font-size: 14px;
+    color: #000000;
+    text-align: left;
+    margin: 5px 10px 0px;
+    width: 94%;
+    border-radius: 3px;
+    border: 1px solid #bbbbbb;
+    height: 30px;
+    font-weight: bold;
+    line-height: 17px;
+}
+
+.setp-02 input:disabled {
+    background-color: #e4e6ea;
+    border: 1px solid #d0d2d6;
+}
+
+.setp-02 label {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    line-height: 24px;
+    margin: 5px 0;
+    min-height: 27px;
+}
+
+.setp-02 input {
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+    margin: 5px 10px;
+    width: 94%;
+    border-radius: 3px;
+    border: 1px solid #bbbbbb;
+    height: 30px;
+    font-weight: bold;
+}
+
+.setp-02 select {
+    font-size: 18px;
+    color: #000000;
+    text-align: left;
+    margin: 5px 10px 0px;
+    width: 94%;
+    border-radius: 3px;
+    border: 1px solid #bbbbbb;
+    height: 30px;
+    font-weight: bold;
+    line-height: 17px;
+}
+
+.setp-02 span {
+    font-size:20px;
+    color:#ffffff;
+    text-align: center;
+    line-height:28px;
+    margin:5px 0;
+    min-height: 30px;
+    text-transform: uppercase;
+}
+
+
+.setp-02 .add-btn {
+    width: auto;
+    color: #000000;
+    margin: 4px 20px 0px;
+    padding: 3px 15px;
+}
+
+
+/*------------- money section setp start-----------------------------*/
+
+
+.money-section-setp {
+    margin-bottom: 10px;
+}
+
+.money-section-setp .border{
+    border:1px solid #000000;
+}
+
 
 .sl-style-100 {
     font-size: 30px;
     margin-top: -15px;
 }
 
+.setp-01 {
 
-/*------------- money section start-----------------------------*/
+}
 
-.money-section {
-
-
+.setp-01 h1 {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: left;
+    padding: 5px 15px;
+    height: 50px;
+    line-height: 40px;
+    margin:0px;
 }
 
 
 
+
 /*------------- money section End-----------------------------*/
+
+
+
 
 
 .contact .login-div {
@@ -452,7 +568,7 @@ body {background-color:#ffffff;}
     background-color: var(--bs-body-bg);
     border-color: #000000;
     outline: 0;
-     box-shadow:none; 
+    box-shadow:none; 
 }
 
 .form-control {
@@ -472,6 +588,14 @@ body {background-color:#ffffff;}
     border:1px solid #c4c4c4;
     border-radius: var(--bs-border-radius);
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-select:focus {
+    /*color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);*/
+     
+    outline: 0;
+    box-shadow:none; 
 }
 
 .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
@@ -734,6 +858,15 @@ section, .section {
 .scroll-top:hover {
    background-color:#0f2965;
 }
+
+
+
+
+
+
+
+
+
 
 /*----------------- media -------------------------*/
 
