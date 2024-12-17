@@ -318,16 +318,17 @@ body {background-color:#ffffff;}
 }
 
 .setp-02 label {
-    font-size: 18px;
+    font-size: 16px;
     color: #000000;
     text-align: center;
     line-height: 24px;
     margin: 5px 0;
     min-height: 27px;
+    font-weight: bold
 }
 
 .setp-02 input {
-    font-size: 20px;
+    font-size: 17px;
     color: #000000;
     text-align: left;
     margin: 5px 10px;
@@ -339,7 +340,7 @@ body {background-color:#ffffff;}
 }
 
 .setp-02 select {
-    font-size: 15px;
+    font-size: 13px;
     color: #000000;
     text-align: left;
     margin: 5px 10px;
@@ -352,11 +353,12 @@ body {background-color:#ffffff;}
 }
 
 .setp-02 span {
-    font-size:20px;
-    color:#ffffff;
+    font-size: 21px;
+    color: #ffffff;
     text-align: center;
-    line-height:28px;
-    margin:5px 0;
+    font-weight: bold;
+    line-height: 28px;
+    margin: 5px 0;
     min-height: 30px;
     text-transform: uppercase;
 }
@@ -863,10 +865,34 @@ section, .section {
     /*color: #ffffff !important;*/
 }
 
+.arRegDiv {
+    border: 1px solid #ddd;
+    padding: 10px;
+    /*background-color: #f7f7f7;*/
+}
 
+.arRegDiv .h-line {
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 6px;
+}
 
+.arRegDiv label {
+    vertical-align: middle;
+    margin-top: 5px;
+    font-weight: 500;
+}
 
-
+.arRegDiv input {
+    font-size: 17px;
+    color: #000000;
+    text-align: left;
+    margin: 5px 0px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #bbbbbb;
+    height: 30px;
+    font-weight: bold;
+}
 
 
 
