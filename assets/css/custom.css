@@ -259,6 +259,11 @@ body {background-color:#ffffff;}
     background-color:#d2d7df;
 }
 
+.color-06 {
+    background-color:#eff5b1;
+    color: #000000;
+}
+
 .select-group-style {
     width: 100%;
 
@@ -893,6 +898,187 @@ section, .section {
     height: 30px;
     font-weight: bold;
 }
+
+
+/*------------- Company Register section class start-----------------------------*/
+
+
+.company-register-section {
+    margin-bottom: 10px;
+}
+
+.company-register-section .border{
+    border:1px solid #000000;
+}
+
+
+.crs-heading span {
+    font-size: 17px;
+    color: #ffffff;
+    text-align: left;
+    line-height: 35px;
+    margin: 5px 0;
+    min-height: 35px;
+    font-weight: bold;
+} 
+
+.crs-heading p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 10px;
+}
+
+.crs-heading strong {
+    color:red;
+}
+
+.company-register-section label {
+    font-size: 13px;
+    color: #000000;
+    text-align: left;
+    line-height: 28px;
+    min-height: 30px;
+    font-weight: 500;
+}
+
+.company-register-section label.input-group-text {
+    font-size: 13px;
+    color: #000000;
+    text-align: left;
+    height: 30px;
+    margin-top: 6px;
+}
+
+
+.company-register-section input {
+    font-size: 15px;
+    color: #000000;
+    text-align: left;
+    margin: 5px 10px;
+    width: 94%;
+    border-radius: 3px;
+    border: 1px solid #bbbbbb;
+    height: 30px;
+    line-height: 17px;
+}
+
+
+
+.company-register-section select {
+    font-size: 14px;
+    color: #000000;
+    text-align: left;
+    margin: 5px 10px 0px;
+    width: 94%;
+    border-radius: 3px;
+    border: 1px solid #bbbbbb;
+    height: 30px;
+    font-weight: bold;
+    line-height: 17px;
+}
+
+.company-register-section input:disabled {
+    background-color: #e4e6ea;
+    border: 1px solid #d0d2d6;
+}
+
+
+        /*------------- company-register-section2------------------*/
+
+.company-register-section2 {
+    margin-bottom: 10px;
+}
+
+.company-register-section2 .border{
+    border:1px solid #000000;
+}
+
+.company-register-section2 input {
+    font-size: 14px;
+    color: #000000;
+    text-align: left;
+    margin: 5px;
+    width: 92%;
+    border-radius: 3px;
+    border: 1px solid #bbbbbb;
+    height: 30px;
+}
+
+.company-register-section2 select {
+    font-size: 13px;
+    color: #000000;
+    text-align: left;
+    margin: 5px;
+    width: 92%;
+    border-radius: 3px;
+    border: 1px solid #bbbbbb;
+    height: 30px;
+    font-weight: bold;
+    line-height: 17px;
+}
+
+.company-register-section2 label {
+    font-size: 13px;
+    color: #000000;
+    text-align: left;
+    line-height: 28px;
+    min-height: 30px;
+    font-weight: 500;
+}
+
+.company-register-section2 label.input-group-text {
+    font-size: 13px;
+    color: #000000;
+    text-align: left;
+    height: 30px;
+    margin-top: 6px;
+}
+
+.company-register-section2 input:disabled {
+    background-color: #e4e6ea;
+    border: 1px solid #d0d2d6;
+}
+
+.tableList th {
+    font-size: 14px;
+}
+
+.tableList td {
+    font-size: 14px;
+}
+
+
+
+
+/*------------- Company Register section class End -----------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
