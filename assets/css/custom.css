@@ -1050,20 +1050,123 @@ section, .section {
 }
 
 
+/*-------------  class End -------------*/
 
 
-/*------------- Company Register section class End -----------------------------*/
+/*------------- Form Step Wizard class start -----------------------------*/
 
 
+        #stepWizard {
+            max-width:100%;
+            background-color: #ffffff;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0px 6px 18px rgb(0 0 0 / 9%);
+            border-radius: 10px;
+        }
+        #stepWizard .form-header {
+            gap: 5px;
+            text-align: center;
+            font-size: .9em;
+        }
+        #stepWizard .form-header .stepIndicator {
+            position: relative;
+            flex: 1;
+            padding-bottom: 30px;
+        }
+        #stepWizard .form-header .stepIndicator.active {
+            font-weight: 600;
+        }
+        #stepWizard .form-header .stepIndicator.finish {
+            font-weight: 600;
+            color: #009688;
+        }
+        #stepWizard .form-header .stepIndicator::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            z-index: 9;
+            width: 20px;
+            height: 20px;
+            background-color: #d5efed;
+            border-radius: 50%;
+            border: 3px solid #ecf5f4;
+        }
+        #stepWizard .form-header .stepIndicator.active::before {
+            background-color: #a7ede8;
+            border: 3px solid #d5f9f6;
+        }
+        #stepWizard .form-header .stepIndicator.finish::before {
+            background-color: #009688;
+            border: 3px solid #b7e1dd;
+        }
+        #stepWizard .form-header .stepIndicator::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            bottom: 8px;
+            width: 100%;
+            height: 3px;
+            background-color: #f3f3f3;
+        }
+        #stepWizard .form-header .stepIndicator.active::after {
+            background-color: #a7ede8;
+        }
+        #stepWizard .form-header .stepIndicator.finish::after {
+            background-color: #009688;
+        }
+        #stepWizard .form-header .stepIndicator:last-child:after {
+            display: none;
+        }
+
+        /*#stepWizard input {
+            padding: 15px 20px;
+            width: 100%;
+            font-size: 1em;
+            border: 1px solid #e3e3e3;
+            border-radius: 5px;
+        }
+        #stepWizard input:focus {
+            border: 1px solid #009688;
+            outline: 0;
+        }
+        #stepWizard input.invalid {
+            border: 1px solid #ffaba5;
+        }*/
+        
+
+        #stepWizard .step {
+          display: none;
+        }
+        #stepWizard .form-footer{
+            overflow:auto;
+            gap: 20px;
+        }
+        #stepWizard .form-footer button{
+            background-color: #009688;
+            border: 1px solid #009688 !important;
+            color: #ffffff;
+            border: none;
+            padding: 13px 30px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            flex: 1;
+            margin-top: 5px;
+        }
+        #stepWizard .form-footer button:hover {
+          opacity: 0.8;
+        }
+        
+        #stepWizard .form-footer #prevBtn {
+            background-color: #fff;
+            color: #009688;
+        }
 
 
-
-
-
-
-
-
-
+/*-------------Class End ----------------*/
 
 
 
