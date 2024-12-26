@@ -232,7 +232,8 @@ body {background-color:#ffffff;}
 }
 
 .color-01 {
-    background-color:#0f2965;
+    background-color:#0f2965;  
+   /* background-color:#868b90;*/
 }
 
 .color-01a {
@@ -256,12 +257,17 @@ body {background-color:#ffffff;}
 }
 
 .color-05 {
-    background-color:#d2d7df;
+    background-color:#eaecee;
 }
 
 .color-06 {
     background-color:#eff5b1;
     color: #000000;
+}
+
+.color-07 {
+    /*background-color:#0f2965;*/  
+    background-color:#868b90;
 }
 
 .select-group-style {
@@ -930,7 +936,7 @@ section, .section {
 }
 
 .crs-heading strong {
-    color:red;
+    color:#c9f505;
 }
 
 .company-register-section label {
@@ -1090,13 +1096,14 @@ section, .section {
             z-index: 9;
             width: 20px;
             height: 20px;
-            background-color: #d5efed;
+            background-color: #f4c5c5;
             border-radius: 50%;
-            border: 3px solid #ecf5f4;
+            border: 3px solid #eec3c3;
         }
+
         #stepWizard .form-header .stepIndicator.active::before {
-            background-color: #a7ede8;
-            border: 3px solid #d5f9f6;
+            background-color: #cc0000;
+            border: 3px solid #b10404;
         }
         #stepWizard .form-header .stepIndicator.finish::before {
             background-color: #009688;
@@ -1112,7 +1119,7 @@ section, .section {
             background-color: #f3f3f3;
         }
         #stepWizard .form-header .stepIndicator.active::after {
-            background-color: #a7ede8;
+            background-color: #cc0000;
         }
         #stepWizard .form-header .stepIndicator.finish::after {
             background-color: #009688;
@@ -1144,13 +1151,13 @@ section, .section {
             overflow:auto;
             gap: 20px;
         }
-        #stepWizard .form-footer button{
-            background-color: #009688;
+        #stepWizard .form-footer button {
+            background-color: #239304;
             border: 1px solid #009688 !important;
             color: #ffffff;
             border: none;
-            padding: 13px 30px;
-            font-size: 1em;
+            padding: 7px 20px;
+            font-size: 1.2em;
             cursor: pointer;
             border-radius: 5px;
             flex: 1;
