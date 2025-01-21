@@ -958,7 +958,7 @@ section, .section {
 
 
 .company-register-section input {
-    font-size: 16px;
+    font-size:14px;
     color: #000000;
     text-align: left;
     margin: 5px 10px;
@@ -967,7 +967,7 @@ section, .section {
     border: 1px solid #bbbbbb;
     height: 30px;
     line-height: 17px;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 .error-message {
