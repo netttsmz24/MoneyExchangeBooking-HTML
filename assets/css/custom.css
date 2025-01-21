@@ -970,7 +970,15 @@ section, .section {
     font-weight: bold;
 }
 
-
+.error-message {
+    font-size: 11px !important;
+    color: red !important;
+    line-height: 12px !important;
+    font-weight: 500 !important;
+    text-transform: capitalize !important;
+    text-align: left !important;
+    margin-bottom: 5px !important;
+}
 
 .company-register-section select {
     font-size: 14px;
@@ -1057,6 +1065,11 @@ section, .section {
 
 
 /*-------------  class End -------------*/
+
+.form-label-sm {
+    line-height: 15px !important;
+    font-size: 12px !important;
+}
 
 
 /*------------- Form Step Wizard class start -----------------------------*/
