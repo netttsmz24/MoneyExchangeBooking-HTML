@@ -918,21 +918,40 @@ section, .section {
 }
 
 
-.crs-heading span {
+/*.crs-heading span {
     font-size: 17px;
     color: #ffffff;
     text-align: left;
-    line-height: 35px;
+    line-height:17px;
     margin: 5px 0;
     min-height: 35px;
     font-weight: bold;
-} 
+} */
 
-.crs-heading p {
+.crs-heading span {
+    font-size: 14px;
+    color: #ffffff;
+    text-align: left;
+    line-height: 17px;
+    padding: 10px;
+    min-height: 32px;
+    font-weight: 400;
+}
+
+/*.crs-heading p {
     color: #ffffff;
     font-size: 14px;
     line-height: 17px;
     margin-top: 10px;
+}*/
+
+.crs-heading p {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 17px;
+    margin: 15px 0px 10px;
+    min-height: 25px;
+    font-weight: bold;
 }
 
 .crs-heading strong {
@@ -957,7 +976,7 @@ section, .section {
 }
 
 
-.company-register-section input {
+/*.company-register-section input {
     font-size:14px;
     color: #000000;
     text-align: left;
@@ -967,7 +986,19 @@ section, .section {
     border: 1px solid #bbbbbb;
     height: 30px;
     line-height: 17px;
-    /*font-weight: bold;*/
+}*/
+
+.company-register-section input {
+    font-size: 14px;
+    color: #000000;
+    text-align: left;
+    margin: 5px auto;
+    width: 96%;
+    border-radius: 3px;
+    border: 1px solid #bbbbbb;
+    height: 30px;
+    line-height: 17px;
+    /* font-weight: bold; */
 }
 
 .error-message {
@@ -984,12 +1015,12 @@ section, .section {
     font-size: 14px;
     color: #000000;
     text-align: left;
-    margin: 5px 10px 0px;
-    width: 94%;
+    margin: 5px 10px 5px;
+    width: 95%;
     border-radius: 3px;
     border: 1px solid #bbbbbb;
     height: 30px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     line-height: 17px;
 }
 
