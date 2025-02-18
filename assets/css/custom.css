@@ -187,7 +187,7 @@ body {background-color:#ffffff;}
 
 .servicesbox h5 {
     text-align: center;
-    font-size: 25px;
+    font-size: 24px;
     color:#ffffff;
 }
 
@@ -206,7 +206,7 @@ body {background-color:#ffffff;}
     height:auto;
     min-height: 40px;
     border-radius:1px;
-    margin-bottom:5px;
+    margin-bottom:2px;
 }
 
 .servicesbox-pop span {
@@ -218,7 +218,7 @@ body {background-color:#ffffff;}
 
 .servicesbox-pop h5 {
     text-align: center;
-    font-size:18px;
+    font-size:14px;
     color:#ffffff;
 }
 
@@ -269,6 +269,21 @@ body {background-color:#ffffff;}
     /*background-color:#0f2965;*/  
     background-color:#868b90;
 }
+
+.color-08 {
+    background-color:#7f5555;
+    color: #000000;
+}
+
+.border-color-01 {
+    border: 1px solid #019797;
+}
+
+
+.border-color-02 {
+    border: 1px solid #504141;
+}
+
 
 .select-group-style {
     width: 100%;
@@ -380,6 +395,163 @@ body {background-color:#ffffff;}
     margin: 4px 20px 0px;
     padding: 3px 15px;
 }
+
+
+
+/*.service-menu-list li a {text-decoration : none; color : #2d2f31;}
+
+
+ .service-menu-list  {
+  width : 300px; 
+  background: #d9d9d9;
+  margin : 40px auto; 
+}
+
+.service-menu-list span {
+  padding : 30px;
+  background : #2d2f31; 
+  color : white;
+  font-size : 1.2em;
+  font-variant : small-caps;
+  cursor : pointer;
+  display: block;
+}
+
+.service-menu-list span::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+.service-menu-list {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.service-menu-list li {padding : 30px;}
+
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+#touch:checked + .service-menu-list {height: 300px;} 
+*/
+
+.service-select21 li a {text-decoration : none; color : #2d2f31;}
+
+
+.service-select21 nav {
+  width :100%; 
+  background: #d9d9d9;
+  /*margin : 40px auto;*/ 
+}
+
+.service-select21 label {
+  width :100%;  
+}
+
+.service-select21 span {
+  padding : 30px;
+  background : #0f2965; 
+  color : white;
+  font-size : 1.2em;
+  font-variant : small-caps;
+  cursor : pointer;
+  display: block;
+}
+
+.service-select21 span::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+.smslide {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.smslide li {
+    padding: 0px;
+    margin: 0px 0px 0px -33px;
+    list-style: none;
+}
+
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+#touch:checked + .smslide {height:215px;} 
+
+
+
+
+.service-select22 li a {text-decoration : none; color : #cc0000;}
+
+
+.service-select22 nav {
+  width :100%; 
+  background: #d9d9d9;
+  /*margin : 40px auto;*/ 
+}
+
+.service-select22 label {
+  width :100%;  
+}
+
+.service-select22 span {
+  padding : 30px;
+  background : #cc0000; 
+  color : white;
+  font-size : 1.2em;
+  font-variant : small-caps;
+  cursor : pointer;
+  display: block;
+}
+
+.service-select22 span::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+.smslide {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.smslide li {
+    padding: 0px;
+    margin: 0px 0px 0px -33px;
+    list-style: none;
+}
+
+#touch2 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch2:checked + .smslide {height: 112px;} 
+
+
+
+.section-title-12 h2 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    position: relative;
+    z-index: 2;
+}
+
+
+
 
 
 /*------------- money section setp start-----------------------------*/
