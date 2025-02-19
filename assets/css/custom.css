@@ -201,7 +201,7 @@ body {background-color:#ffffff;}
 .servicesbox-pop {
     text-align: center;
     border: 1px solid #dddddd;
-    padding: 10px;
+    padding: 8px 10px;
     transition: border ease-in-out 0.3s;
     height:auto;
     min-height: 40px;
@@ -493,7 +493,7 @@ body {background-color:#ffffff;}
 
 #touch {position: absolute; opacity: 0; height: 0px;}    
 
-#touch:checked + .smslide {height:210px;} 
+#touch:checked + .smslide {height:204px;} 
 
 
 
