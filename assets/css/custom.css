@@ -217,9 +217,17 @@ body {background-color:#ffffff;}
 }
 
 .servicesbox-pop h5 {
-    text-align: center;
-    font-size:14px;
-    color:#ffffff;
+    text-align: left;
+    font-size: 13px;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    /*background-image:url(/assets/images/home.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;*/
+
+    
 }
 
 .servicesbox-pop h4 {
@@ -276,7 +284,7 @@ body {background-color:#ffffff;}
 }
 
 .border-color-01 {
-    border: 1px solid #019797;
+    border: 1px solid #000000;
 }
 
 
@@ -453,13 +461,13 @@ body {background-color:#ffffff;}
 }
 
 .service-select21 span {
-  padding : 30px;
-  background : #0f2965; 
-  color : white;
-  font-size : 1.2em;
-  font-variant : small-caps;
-  cursor : pointer;
-  display: block;
+    padding: 20px;
+    background: #0f2965;
+    color: white;
+    font-size: 20px;
+    font-variant: small-caps;
+    cursor: pointer;
+    display: block;
 }
 
 .service-select21 span::after {
@@ -485,7 +493,7 @@ body {background-color:#ffffff;}
 
 #touch {position: absolute; opacity: 0; height: 0px;}    
 
-#touch:checked + .smslide {height:215px;} 
+#touch:checked + .smslide {height:210px;} 
 
 
 
@@ -504,13 +512,13 @@ body {background-color:#ffffff;}
 }
 
 .service-select22 span {
-  padding : 30px;
-  background : #cc0000; 
-  color : white;
-  font-size : 1.2em;
-  font-variant : small-caps;
-  cursor : pointer;
-  display: block;
+    padding: 20px;
+    background: #cc0000;
+    color: white;
+    font-size: 20px;
+    font-variant: small-caps;
+    cursor: pointer;
+    display: block;
 }
 
 .service-select22 span::after {
@@ -530,14 +538,29 @@ body {background-color:#ffffff;}
 
 .smslide li {
     padding: 0px;
-    margin: 0px 0px 0px -33px;
+    margin: 0px 0px 0px -32px;
     list-style: none;
+    background-color: #ffffff;
+
+    /*background-image:url(/assets/images/home.png);  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left middle;*/
+   
+}
+
+.servicesbox-pop:hover {
+    background-color: #eeeeee;
 }
 
 #touch2 {position: absolute; opacity: 0; height: 0px;}    
 
-#touch2:checked + .smslide {height: 112px;} 
+#touch2:checked + .smslide { height:107px;} 
 
+.color-block {
+   color:#000000 !important;
+   font-weight: 600;
+}
 
 
 .section-title-12 h2 {
