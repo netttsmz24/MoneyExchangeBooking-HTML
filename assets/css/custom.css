@@ -2,6 +2,7 @@
 html, body {
   height: 100%;
 }
+
 .container {
     min-height:100%;
 }
@@ -11,14 +12,22 @@ html, body {
     margin-right: 8px;
 }
 
-.header {
+/*.header {
     color: var(--default-color);
     background-color:#f3f3f3;
     padding: 5px 0;
     transition: all 0.5s;
     z-index: 997;
-}
+}*/
 
+.header {
+    color: var(--default-color);
+    background-color: #ffffff;
+    padding: 5px 0;
+    transition: all 0.5s;
+    z-index: 997;
+    border-bottom: 4px solid #0f2965;
+}
 
 #header a.icon {
     color:#cc0000;
@@ -49,7 +58,104 @@ h1, h2, h3, h4, h5, h6 {
 
 body {background-color:#ffffff;}
 
- 
+ .service-box203 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid #0f2965;
+    border-radius: .45rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+    padding:15px;
+}
+
+.service-select-head {
+    padding: 10px;
+    /* background: #0f2965; */
+    color: #0f2965;
+    font-size: 19px;
+    font-variant: small-caps;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    min-height: 70px;
+}
+
+.service-select-menu {
+    padding: 10px;
+    /* background: #0f2965; */
+    color: #0f2965;
+    font-size: 15px;
+    /*font-variant: small-caps;*/
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    min-height: 70px;
+}
+
+.border-danger {
+    border-right: 5px solid  #fd3550 !important;
+}
+
+.color-danger {
+    color:#fd3550 !important;
+}
+
+.icon-color {
+    color:#3e3e3f !important;
+}
+
+.border-start-r {
+    border-right: 5px solid #0f2965 !important;
+}
+
+.border-start-b {
+    border-bottom: 3px solid #0f2965 !important;
+}
+
+.border-info {
+    border-right: 5px solid  #0dcaf0 !important;
+}
+
+.color-info {
+    color:#0dcaf0 !important;
+}
+
+.border-info-bottom {
+    border-bottom: 5px solid  #0dcaf0 !important;
+}
+
+.border-warning {
+    border-right: 5px solid  #ffc107 !important;
+}
+
+.color-warning {
+    color:#ffc107 !important;
+}
+
+.border-success {
+    border-right: 5px solid  #15ca20 !important;
+}
+
+.color-success {
+    color:#15ca20 !important;
+}
+
+.section-title h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    position: relative;
+    z-index: 2;
+}
 
 .header .btn-getstarted, .header .btn-getstarted:focus {
     color:#002060;
@@ -575,8 +681,6 @@ body {background-color:#ffffff;}
 
 
 
-
-
 /*------------- money section setp start-----------------------------*/
 
 
@@ -590,8 +694,15 @@ body {background-color:#ffffff;}
 
 
 .sl-style-100 {
-    font-size: 30px;
+    font-size: 22px;
     margin-top: -15px;
+}
+
+.section-title {
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 30px;
+    position: relative;
 }
 
 .setp-01 {
